@@ -5,3 +5,7 @@ export default class Cell extends Component {
     return
   }
 }
+
+Cell.defaultProps = {
+  val: "#F00"
+}
