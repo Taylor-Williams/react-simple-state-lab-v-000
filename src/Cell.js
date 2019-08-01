@@ -10,7 +10,7 @@ export default class Cell extends Component {
   touch = () => {
     this.setState{{
       color: "#FFF"
-    }}  
+    }}
   }
   render() {
     return <div className="cell" onClick={this.touch}style={{backgroundColor: {this.state.color}}}></div>
