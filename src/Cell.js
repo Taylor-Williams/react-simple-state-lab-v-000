@@ -8,7 +8,7 @@ export default class Cell extends Component {
     }
   }
   render() {
-    return
+    return <div className="cell"></div>
   }
 }
 
